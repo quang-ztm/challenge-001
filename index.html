@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Challenge One</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Thử Thách Xây Nhà</h1>
+								<p>"bạn" có vừa đủ tiền để xây một ngôi nhà "bình thường".</p>
+								<p>"người thân" cho bạn một khoản tiền để xây một ngôi nhà "khá giả".</p>
+								<p>Bạn chọn "phương án" nào?</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Bình Thường</a></li>
+								<li><a href="#contact">Chọn Nào</a></li>
+								<li><a href="#work">Khá Giả</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Ngôi Nhà Bình Thường</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>Bạn muốn được tự mình đứng ra xây nhà => bù lại bạn mất đi khoản tiền của người thân.</p>
+							</article>
+
+							<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Chọn Nào</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Tên</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Chọn</label>
+											<select name="message" id="message">
+											    <option value="normal-house">Ngôi Nhà Bình Thường</option>
+											    <option value="well-off-house">Ngôi Nhà Khang Trang</option>
+											  </select>
+										</div>
+									</div>
+									<ul class="actions">
+										<!-- <li><input type="submit" value="Gửi Lựa Chọn" class="primary" /></li> -->
+										<li><input type="button" value="Gửi Lựa Chọn" class="primary" onclick="myFunction()" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>								
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Ngôi Nhà Khá Giả</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Bạn muốn có một ngôi nhà khá giả => bù lại bạn mất đi quyền được tự mình xây nhà.</p>
+							</article>
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				function myFunction() {
+					var text = `Mới học tới "html, css" => nên làm được tới đây thôi.\nP.s: Giờ học tiếp "javascript" => rồi làm tiếp 😉`;
+					alert(text);
+				}
+			</script>
+
+	</body>
+</html>
